@@ -31,9 +31,9 @@ function leastCommonMultiple($numbers){
 		$dividend = $divider;
 		$divider = $remainder;
 	}
-	$greatestCommonDivisor = ($numbers[0]*$numbers[1])/$dividend;
-
-	echo $greatestCommonDivisor;
+	$leastCommonMultiple = ($numbers[0]*$numbers[1])/$dividend;
+	
+	return $leastCommonMultiple;
 }
 foreach($arr as $key=>$value){
 	echo leastCommonMultiple($value);
