@@ -12,7 +12,7 @@ $arr[4] = [1, 4, 7, 2, 4, 7];
 $arr[5] = [1, 4, 7, 2, 2, 7, 4, 6, 9];
 $arr[6] = [4, 1, 4, 7, 2, 1, 4, 4, 7, 2, 1, 5];
 
-function array_duplicate($array){
+function arrayDuplicate($array){
 	
 	for($i = 0; $i < count($array); $i++){
 		if($i > 0){
@@ -34,7 +34,7 @@ function array_duplicate($array){
 }
 $i = 0;
 while($i < 7){
-	print_r(array_duplicate($arr[$i]));
+	print_r(arrayDuplicate($arr[$i]));
 	$i++;
 }
 ?>
