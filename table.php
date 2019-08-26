@@ -21,5 +21,5 @@ function table($row, $col){
 	}
 }
 
-table(5, 3)
+table(5, 3);
 ?>
